@@ -11,6 +11,14 @@
 </head>
 <body>
 <div class="container">
+    <h1>OIDC Demo</h1>
+    <div id="unauthenticated">
+        With GitHub: <a href="/oauth2/authorization/github">click here</a>
+    </div>
+    <div id="authenticated" style="display:none">
+        Logged in as: <span id="user"></span>
+    </div>
+    <script src="./main.js"></script>
     <h2 class="form-signin-heading">Login with OAuth 2.0</h2>
     <table class="table table-striped">
         <tr>
